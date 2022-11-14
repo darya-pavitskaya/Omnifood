@@ -309,3 +309,33 @@
   height: 3rem;
   color: #e67e22;
 }
+
+/********************/
+/*Section testimonials*/
+/********************/
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.testimonial-img {
+  margin-bottom: 1.2rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
+}
